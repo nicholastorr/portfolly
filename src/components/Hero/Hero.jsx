@@ -40,6 +40,7 @@ const Header = () => {
               </Link>
             </span>
           </p>
+          <img src="headcrop-cirlce.png" alt="headshot" />
         </Fade>
       </Container>
     </section>
