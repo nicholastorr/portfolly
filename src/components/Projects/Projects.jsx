@@ -5,13 +5,20 @@ import { Container, Row, Col } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
+import Popup from './PopupProjects';
 
 const Projects = () => {
   const { projects } = useContext(PortfolioContext);
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
+
+  const togglePopup = () => {
+    setIsOpen(!isOpen);
+  }
+  
   useEffect(() => {
     if (window.innerWidth > 769) {
       setIsDesktop(true);
@@ -28,9 +35,10 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projects" />
           {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id } = project;
+            const { title, info, info2, url, repo, img, id, img2 } = project;
 
             return (
+              
               <Row key={id}>
                 <Col lg={4} sm={12}>
                   <Fade
@@ -49,14 +57,6 @@ const Projects = () => {
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
-                      <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="cta-btn cta-btn--hero"
-                        href={url || '#!'}
-                      >
-                        See Live
-                      </a>
 
                       {repo && (
                         <a
@@ -71,6 +71,7 @@ const Projects = () => {
                     </div>
                   </Fade>
                 </Col>
+                
                 <Col lg={8} sm={12}>
                   <Fade
                     right={isDesktop}
@@ -107,6 +108,22 @@ const Projects = () => {
                     </div>
                   </Fade>
                 </Col>
+                <div style={{marginTop: "-100px", marginBottom: "150px", marginLeft: "25px"}}>
+                <input
+                  type="button"
+                  value="More Info"
+                  className="cta-btn cta-btn--hero"
+                  onClick={togglePopup}
+                  style={{zIndex: "0", fontSize: "17px"}}
+                />
+                  {isOpen && <Popup
+                    content={<>
+                      <h1>{title}</h1>
+                      <img src={`./images/${img2}`} alt={title} />
+                    </>}
+                  handleClose={togglePopup}
+                  />}
+                </div>
               </Row>
             );
           })}

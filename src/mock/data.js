@@ -35,19 +35,21 @@ export const projectsData = [
     id: nanoid(),
     img: 'mbs-standoffs.png',
     title: 'HTM MBS',
-    info: 'Various major UI and UX improvements as well as greatly improving SEO as Lead Front End Developer.',
-    info2: 'Also Developer for MBS-Signsupply and MBS-Hanging Systems',
+    info: 'Lead Developer for 4 E-commerce sites with over 70k products and 200k customers averaging over 1 million in sales per month',
+    info2: 'Ongoing work includes adding new features, products, and improving existing functionality',
     url: 'https://mbs-standoffs.com/',
     repo: '', // if no repo, the button will not show up
+    img2: 'mbs-standoffs.png',
   },
   {
     id: nanoid(),
     img: 'dbp',
-    title: 'Dixie Belle Paint',
-    info: 'Work on new products and website UI as Junior Developer. Work included improving map to include several different types of retailer. ',
+    title: 'Scribble Stadium',
+    info: 'Non-Profit game developed to make kids interested in reading by creating fanfiction/spinoff stories and drawings that they vote on and earn points to try win prizes',
     info2: '',
     url: 'https://dixiebellepaint.com/',
     repo: '', // if no repo, the button will not show up
+    img2: 'dbp.png',
   },
   {
     id: nanoid(),
@@ -57,6 +59,7 @@ export const projectsData = [
     info2: '',
     url: '',
     repo: 'https://github.com/nicholastorr/groovy-dawgs', // if no repo, the button will not show up
+    img2: 'groovy-dawgs.png',
   },
 ];
 
