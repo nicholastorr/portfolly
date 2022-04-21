@@ -14,7 +14,7 @@
     position: relative;
     width: 70%;
     margin: 0 auto;
-    height: 950px;
+    height: auto;
     margin-top: calc(100vh - 85vh - 20px);
     background: #fff;
     border-radius: 4px;

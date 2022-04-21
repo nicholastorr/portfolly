@@ -81,24 +81,24 @@ const Popup = props => {
           fontSize: "50px" }}>
       <div>
       <Button style={{fontSize: "30px"}} variant="outlined" size="large">
-          Small
+          <a href="https://www.php.net/">PHP</a>
         </Button>
         <Button style={{fontSize: "30px"}} variant="outlined" size="large">
-          Medium
+          <a href="https://jquery.com/">Jquery</a>
         </Button>
         <Button style={{fontSize: "30px"}} variant="outlined" size="large">
-          Large
+          <a href="https://www.codeigniter.com/">CodeIgniter</a>
         </Button>
       </div>
       <div>
       <Button style={{fontSize: "30px"}} variant="outlined" size="large">
-          Small
+          <a href="https://www.drupal.org/">Drupal</a>
         </Button>
         <Button style={{fontSize: "30px"}} variant="outlined" size="large">
-          Medium
+          <a href="https://www.mysql.com/">MySQL</a>
         </Button>
         <Button style={{fontSize: "30px"}} variant="outlined" size="large">
-          Large
+          <a href="https://www.odoo.com/">Odoo</a>
         </Button>
       </div>
     </Box>
