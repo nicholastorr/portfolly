@@ -43,19 +43,19 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'dbp',
+    img: 'scribble-stadium2.png',
     title: 'Scribble Stadium',
     info: 'Non-Profit game developed to make kids interested in reading by creating fanfiction/spinoff stories and drawings that they vote on and earn points to try win prizes',
     info2: '',
-    url: 'https://dixiebellepaint.com/',
+    url: 'https://www.storysquad.education/',
     repo: '', // if no repo, the button will not show up
-    img2: 'dbp.png',
+    img2: 'scribble-stadium2.png',
   },
   {
     id: nanoid(),
     img: 'groovy-dawgs',
     title: 'Groovy Dawgs Street Food and Catering',
-    info: 'Simple and fast website for restaurant optimized for SEO ',
+    info: 'Simple and fast website for a small restaurant optimized for SEO and speed',
     info2: '',
     url: '',
     repo: 'https://github.com/nicholastorr/groovy-dawgs', // if no repo, the button will not show up
