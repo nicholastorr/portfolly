@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'C6AB8A21-D6F5-4B44-B1FB-63F42052D6CC copy.png',
   paragraphOne:
-    'Hi there, my name is Nicholas Esquilo Torres. I currently freelance and work am the Chief Technical Officer for a CPA referral company and education platform called The Walters Institute',
+    'Hi there, my name is Nicholas Esquilo Torres. I currently freelance and am the Chief Technical Officer for a CPA referral company and education platform called The Walters Institute™',
   paragraphTwo:
     'I began my journey on the internet when I was in middle school and wanted to make a theme for my Myspace page. Little did I know this would be my first introduction into HTML and it was the first time I actually felt creative. I picked up some Javascript books and fell in love with finding creative solutions to problems. 10 years later I am still learning and growing as a developer.',
   paragraphThree:
