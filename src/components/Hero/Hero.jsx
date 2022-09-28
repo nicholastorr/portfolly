@@ -40,7 +40,7 @@ const Header = () => {
               </Link>
             </span>
           </p>
-          <img src="https://i.imgur.com/qrmBS7M.jpeg" alt="headshot" />
+          <img style="width: 150px; height 150px; border-radius: 50%;" src="https://i.imgur.com/qrmBS7M.jpeg" alt="headshot" />
         </Fade>
       </Container>
     </section>
