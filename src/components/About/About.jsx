@@ -48,9 +48,7 @@ const About = () => {
                 <p className="about-wrapper__info-text">
                   {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
                 </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphFour || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
-                </p>
+                
                 {resume && (
                   <span className="d-flex mt-3">
                     <a
