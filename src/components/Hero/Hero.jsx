@@ -40,6 +40,7 @@ const Header = () => {
               </Link>
             </span>
           </p>
+          <img src="../Image/headshot.jpeg" alt="headshot" />
         </Fade>
       </Container>
     </section>

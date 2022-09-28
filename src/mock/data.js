@@ -19,13 +19,13 @@ export const heroData = {
 export const aboutData = {
   img: 'C6AB8A21-D6F5-4B44-B1FB-63F42052D6CC copy.png',
   paragraphOne:
-    'Hello, my name is Nicholas Esquilo Torres. I currently freelance and work as the Front End Developer for a large manufactoring company.',
+    'Hello, my name is Nicholas Esquilo Torres. I currently freelance and work am the Chief Technical Officer for a CPA referral company and education platform called The Walters Institute',
   paragraphTwo:
-    'I began my journey on the internet when I was in about middle school and wanted to make a theme for my Myspace page. Little did I know this would be my first introduction into HTML and I fell in love with the process of having an idea and slowly building it up into what I imagined. I decided to take the plunge and started my journey as a web developer. My first introduction to actual coding was taking an AP Computer Science course offered at my high school; the first time they ever offered it. In this class is where I learned the fundamentals and how to truly problem solve with a computer. I went on to major in Computer Science at the University of South Florida and have had various developer jobs since.',
+    'I began my journey on the internet when I was in middle school and wanted to make a theme for my Myspace page. Little did I know this would be my first introduction into HTML and it was the first time I actually felt creative. I picked up some Javascript books and fell in love with finding creative solutions to problems. 10 years later I am still learning and growing as a developer.',
   paragraphThree:
-    'At this point I realized I did all this learning but never tried to make anything truly complex. Starting with simple video games, I built more and more projects until I learned about Web Development. While I still love playing and making video games I found there was a big need for Ecommerce and other various websites. I felt like I was still inexperienced with actual Web Development so I enrolled in Lambda School to try to learn enough to effectively build or manage my own websites.',
+    'On a professional level, I graduated from University of South Florida with a Bachelors in Computer Science and attended Bloom Institute of Tech; a 2 year Full Stack Web Development bootcamp. Languages I have professionally used include Javascript, Python, PHP, and C++ as well as a variety of technologies and frameworks. I have worked with React, Angular, Vue, Node, Express, MongoDB, MySQL, and many more. I am always looking to learn new technologies and improve my skills.',
   paragraphFour:
-    'After all the schooling and self education this was the hardest I was ever tested and I learned at an exponential rate. Completing the bootcamp successfully was a challenge but I was able to end up with a wealth of knowledge that I am constantly expanding. I apply this knowledge and work ethic to anything I do and take pride in anything I make, from the simplest apps to full websites.',
+    '',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
